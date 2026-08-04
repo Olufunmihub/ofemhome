@@ -38,7 +38,7 @@ function Index() {
           height={1088}
           className="absolute inset-0 h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/80 to-primary/70" />
+        <div className="absolute inset-0 bg-gradient-to-b from-primary/55 to-primary/45" />
         <div className="container-page relative py-20 text-center">
           <h1 className="mx-auto max-w-3xl text-[36px] text-primary-foreground lg:text-[56px]">
             Transform Your Space Into Luxury
