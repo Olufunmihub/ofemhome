@@ -12,7 +12,7 @@ export function TestimonialCarousel() {
     return () => clearInterval(id);
   }, [paused]);
 
-  const active = testimonials[index];
+  const active = testimonials[index] ?? testimonials[0]!;
 
   return (
     <div

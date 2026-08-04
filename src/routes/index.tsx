@@ -108,7 +108,7 @@ function Index() {
           <SectionHeading eyebrow="Why us" title="Why Choose OFEM Home" />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {whyOfem.map((item, i) => {
-              const Icon = featureIcons[i];
+              const Icon = featureIcons[i] ?? Layers;
               return (
                 <article
                   key={item.title}
